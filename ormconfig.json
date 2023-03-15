@@ -1,0 +1,19 @@
+{
+  "username": "postgres",
+  "password": "123",
+
+  "name": "default",
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "database": "recover_development",
+  "entities": [
+    "/modules/**/entities/*.ts"
+  ],
+  "migrations": [
+    "/database/migrations/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
